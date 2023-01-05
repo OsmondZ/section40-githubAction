@@ -9,7 +9,8 @@ on:
       - "feat/**" # feat/new feat/new/button
   workflow_dispatch:
   push:
-    branches:
+    branches: 
+      - master # main
       - main # main
       - "dev-*" # dev-new dev-this-is-new
       - "feat/**" # feat/new feat/new/button
